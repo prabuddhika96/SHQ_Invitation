@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation</title>
+
+    <h1>name : <span id="name"></span></h1>
+</head>
+<body>
+	<script>
+        const queryString = window.location.search;
+        let encryptedname=queryString.substring(1).split("=")[1];
+
+        console.log(encryptedname);
+
+        let name='';
+
+        if(encryptedname=='N7K4mMufZQOGeAG'){
+            name ='Prof Amalka Pinidiyaarachchi';
+        }
+        else if(encryptedname='Y0O5FS89EEKPG'){
+            name='Mr Prabath Gunathilake';
+        }
+        else{
+            name='Other';
+        }
+
+        document.getElementById("name").innerHTML=name;
+	</script>
+</body>
+</html>
