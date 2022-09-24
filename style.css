@@ -3,6 +3,10 @@
 @import url('http://fonts.cdnfonts.com/css/umbro');
 
 
+:root{
+  --yellow : #CE9707;
+}
+
 body{
   background-color: #0B1628;
   padding: 1em;
@@ -25,12 +29,13 @@ p{
   height: 100%;
   width: 100%;
   background-size: cover;
-  box-shadow:5px 5px 10px #fff;
+  /* box-shadow:5px 5px 10px rgb(64, 64, 64); */
+  box-shadow: 0 0 10px 5px;
   padding: 1em;
 }
 
 .content{
-  border: 1px solid #CE9707;
+  border: 1px solid var(--yellow);
   height: 100%;
   text-transform: uppercase;
   text-align: center;
@@ -41,7 +46,7 @@ p{
 }
 .main h1{
   font-family: 'Cinzel', serif;
-  color: #CE9707;
+  color: var(--yellow);
   letter-spacing: 10px;
   margin-top: 1em;
 }
@@ -52,7 +57,7 @@ p{
 }
 
 #name{
-  color: #CE9707;
+  color: var(--yellow);
   margin: 2em auto;
 }
 
@@ -63,7 +68,7 @@ p{
 #shq{
   font-family: 'Umbro Outline', sans-serif;
   font-size: 5em;
-  color: #CE9707;
+  color: var(--yellow);
 }
 
 .glow {
@@ -79,7 +84,7 @@ p{
   }
   
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #CE9707, 0 0 40px #CE9707, 0 0 50px #CE9707, 0 0 60px #CE9707, 0 0 70px #CE9707, 0 0 80px #CE9707;
+    text-shadow: 0 0 20px #fff, 0 0 30px var(--yellow), 0 0 40px var(--yellow), 0 0 50px var(--yellow), 0 0 60px var(--yellow), 0 0 70px var(--yellow), 0 0 80px var(--yellow);
   }
 } */
 
@@ -89,20 +94,21 @@ p{
   gap: 5px;
   margin: 2em auto;
   width: 50%;
+  align-items: center;
 
   font-family: 'Cinzel', serif;
 }
 .date h2{
   vertical-align: middle;
-  color: #CE9707;
+  color: var(--yellow);
 }
 #middle{
-  border: 1px solid #CE9707;
+  border: 1px solid var(--yellow);
   border-top: none;
   border-bottom: none;
 }
 #venue{
-  color: #CE9707;
+  color: var(--yellow);
 }
 
 .organized{
