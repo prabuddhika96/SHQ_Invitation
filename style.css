@@ -70,10 +70,10 @@ p{
   font-size: 80px;
   color: #fff;
   text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
+  /* animation: glow 1s ease-in-out infinite alternate; */
 }
 
-@-webkit-keyframes glow {
+/* @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #efc048, 0 0 40px #efc048, 0 0 50px #efc048, 0 0 60px #efc048, 0 0 70px #efc048;
   }
@@ -81,7 +81,7 @@ p{
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #CE9707, 0 0 40px #CE9707, 0 0 50px #CE9707, 0 0 60px #CE9707, 0 0 70px #CE9707, 0 0 80px #CE9707;
   }
-}
+} */
 
 .date{
   display: grid;
