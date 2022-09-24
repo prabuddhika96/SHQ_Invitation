@@ -8,16 +8,19 @@ console.log(encryptedname);
 let name='';
 
 if(encryptedname=='N7K4mMufZQOGeAG'){
-    name ='Prof Amalka Pinidiyaarachchi';
+    name ='Prof. Amalka Pinidiyaarachchi';
 }
 else if(encryptedname=='Y0O5FS89EEKPG'){
-    name='Mr Prabath Gunathilake';
+    name='Mr. Prabath Gunathilake';
 }
 else if(encryptedname=='b0xKODsbmR'){
-    name='Dr Erunika Dayarathne';
+    name='Dr. Erunika Dayarathne';
 }
 else if(encryptedname=='Km5U2EM4FG2'){
-    name='Dr Ruwan Nawarathne';
+    name='Dr. Ruwan Nawarathne';
+}
+else if(encryptedname=='TU5On/rRLZ4'){
+    name='Dr. Lakshika Nawarathne';
 }
 else{
     name='Other';

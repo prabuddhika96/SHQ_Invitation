@@ -1,96 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('http://fonts.cdnfonts.com/css/lemonmilk');
+@import url('http://fonts.cdnfonts.com/css/umbro');
+
+
 body{
-    /* background-color: red; */
+  background-color: #0B1628;
+  padding: 1em;
+  height: 100%;
 }
 
-a {
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: #2196f3;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 24px;
-    overflow: hidden;
-    transition: 0.2s;
+p{
+  font-size: 1.1em;
+}
+.container{
+  width: 600px;
+  height: 1000px;
+  /* background: #fff; */
+  margin: 0 auto;
+  padding: 10px;
 }
 
-
-
-a:hover {
-    /* color: #255784;
-    background: #2196f3;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
-    transition-delay: 1s; */
+.invitation{
+  background-image: url('Img/backgrond.jpg');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  box-shadow:5px 5px 10px #fff;
+  padding: 1em;
 }
 
-
-a span {
-    position: absolute;
-    display: block;
+.content{
+  border: 1px solid #CE9707;
+  height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Lemon/Milk light', sans-serif;
+}
+.main{
+  margin: 4em auto;
+}
+.main h1{
+  font-family: 'Cinzel', serif;
+  color: #CE9707;
+  letter-spacing: 10px;
+  margin-top: 1em;
 }
 
-
-
-
-a span:nth-child(1) {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #2196f3);
+#cordially{
+  color: #354155;
+  font-weight: 800;
 }
 
-
-
-a:hover span:nth-child(1) {
-    left: 100%;
-    transition: 1s;
+#name{
+  color: #CE9707;
+  margin: 2em auto;
 }
 
-
-a span:nth-child(3) {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #2196f3);
+#department{
+  color: #6B6F78;
 }
 
-a:hover span:nth-child(3) {
-    right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
+#shq{
+  font-family: 'Umbro Outline', sans-serif;
+  font-size: 5em;
+  color: #CE9707;
 }
 
-
-
-a span:nth-child(2) {
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, #2196f3);
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
-a:hover span:nth-child(2) {
-    top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #efc048, 0 0 40px #efc048, 0 0 50px #efc048, 0 0 60px #efc048, 0 0 70px #efc048;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #CE9707, 0 0 40px #CE9707, 0 0 50px #CE9707, 0 0 60px #CE9707, 0 0 70px #CE9707, 0 0 80px #CE9707;
+  }
 }
 
+.date{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  margin: 2em auto;
+  width: 50%;
 
-
-a span:nth-child(4) {
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent, #2196f3);
+  font-family: 'Cinzel', serif;
+}
+.date h2{
+  vertical-align: middle;
+  color: #CE9707;
+}
+#middle{
+  border: 1px solid #CE9707;
+  border-top: none;
+  border-bottom: none;
+}
+#venue{
+  color: #CE9707;
 }
 
-a:hover span:nth-child(4) {
-    bottom: 100%;
-    transition: 1s;
-    transition-delay: 0.75s;
+.organized{
+  color: #fff;
+  font-family: 'Cinzel', serif;
+  margin-top: 5em;
+  line-height: 80%;
+}
+.low{
+  font-size: small;
 }
