@@ -2,9 +2,16 @@
 @import url('http://fonts.cdnfonts.com/css/lemonmilk');
 @import url('http://fonts.cdnfonts.com/css/umbro');
 
+/* @font-face {
+  font-family: 'Lemon/Milk light', sans-serif;
+  src: url(fonts/LemonMilk.otf);
+} */
+
 
 :root{
   --yellow : #CE9707;
+  --cordially: #7a7a7a;
+  --department: #8a8a8a;
 }
 
 body{
@@ -17,10 +24,9 @@ p{
   font-size: 1.1em;
 }
 .container{
-  width: 600px;
+  width: 700px;
   height: 1000px;
-  /* background: #fff; */
-  margin: 0 auto;
+  margin: 1em auto;
   padding: 10px;
 }
 
@@ -30,12 +36,14 @@ p{
   width: 100%;
   background-size: cover;
   /* box-shadow:5px 5px 10px rgb(64, 64, 64); */
-  box-shadow: 0 0 10px 5px;
+  box-shadow: 0 0 10px 1px var(--yellow);
   padding: 1em;
+  border-radius: 10px;
 }
 
 .content{
   border: 1px solid var(--yellow);
+  border-radius: 10px;
   height: 100%;
   text-transform: uppercase;
   text-align: center;
@@ -52,17 +60,18 @@ p{
 }
 
 #cordially{
-  color: #354155;
+  color: var(--cordially);
   font-weight: 800;
 }
 
 #name{
   color: var(--yellow);
   margin: 2em auto;
+  font-size: 2rem;
 }
 
 #department{
-  color: #6B6F78;
+  color: var(--department);
 }
 
 #shq{
@@ -92,7 +101,7 @@ p{
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 5px;
-  margin: 2em auto;
+  margin: 1em auto;
   width: 50%;
   align-items: center;
 
@@ -103,9 +112,17 @@ p{
   color: var(--yellow);
 }
 #middle{
-  border: 1px solid var(--yellow);
+  /* border: 1px solid var(--yellow);
   border-top: none;
-  border-bottom: none;
+  border-bottom: none; */
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to top, 
+      var(--yellow), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
 }
 #venue{
   color: var(--yellow);
@@ -114,9 +131,31 @@ p{
 .organized{
   color: #fff;
   font-family: 'Cinzel', serif;
-  margin-top: 5em;
+  margin-top: 2em;
   line-height: 80%;
 }
 .low{
   font-size: small;
+}
+
+
+@media screen and (max-width: 500px) {
+  body{
+    font-size: 60%;
+  }
+  .container{
+    width: 80%;
+    height: 100%;
+    /* background: #fff; */
+    margin: 0 auto;
+    /* padding: 10px; */
+  }
+  .main{
+    margin: 2em auto;
+  }
+  .main h1{
+    letter-spacing: 5px;
+    margin-top: 0em;
+    /* font-size: 0.5em; */
+  }
 }
