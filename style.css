@@ -88,6 +88,9 @@ p{
   font-size: 5em;
   color: var(--yellow);
 }
+#month{
+  color: rgb(170, 170, 170);
+}
 
 .glow {
   font-size: 80px;
