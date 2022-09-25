@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-@import url('http://fonts.cdnfonts.com/css/lemonmilk');
-@import url('http://fonts.cdnfonts.com/css/umbro');
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap'); */
+/* @import url('http://fonts.cdnfonts.com/css/lemonmilk'); */
+/* @import url('http://fonts.cdnfonts.com/css/umbro'); */
 
-/* @font-face {
-  font-family: 'Lemon/Milk light', sans-serif;
+@font-face {
+  /* font-family: lemonMilk; */
+  font-family: lemonMilk;
   src: url(fonts/LemonMilk.otf);
-} */
+
+  font-family: cinzel;
+  src: url(fonts/Cinzel-VariableFont_wght.ttf);
+
+  font-family: umbro;
+  src: url(fonts/Umbro1.ttf);
+}
 
 
 :root{
@@ -47,13 +54,13 @@ p{
   height: 100%;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Lemon/Milk light', sans-serif;
+  font-family: lemonMilk;
 }
 .main{
   margin: 4em auto;
 }
 .main h1{
-  font-family: 'Cinzel', serif;
+  font-family: cinzel;
   color: var(--yellow);
   letter-spacing: 10px;
   margin-top: 1em;
@@ -76,7 +83,7 @@ p{
 }
 
 #shq{
-  font-family: 'Umbro Outline', sans-serif;
+  font-family: umbro;
   font-size: 5em;
   color: var(--yellow);
 }
@@ -96,7 +103,7 @@ p{
   width: 50%;
   align-items: center;
 
-  font-family: 'Cinzel', serif;
+  font-family: cinzel;
 }
 .date h2{
   vertical-align: middle;
@@ -121,7 +128,7 @@ p{
 
 .organized{
   color: #fff;
-  font-family: 'Cinzel', serif;
+  font-family: cinzel;
   margin-top: 2em;
   line-height: 80%;
 }
