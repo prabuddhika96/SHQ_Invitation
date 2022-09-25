@@ -140,6 +140,7 @@ p{
 @media screen and (max-width: 500px) {
   body{
     font-size: 60%;
+    padding: 0;
   }
   .container{
     width: 100%;
