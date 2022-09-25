@@ -68,8 +68,9 @@ p{
 
 #cordially{
   color: var(--cordially);
-  font-weight: 800;
+  font-weight: 400;
   font-size: 25px;
+  font-family: lemonMilk;
 }
 
 #name{
@@ -100,7 +101,7 @@ p{
   grid-template-columns: auto auto auto;
   gap: 5px;
   margin: 1em auto;
-  width: 50%;
+  width: 70%;
   align-items: center;
 
   font-family: cinzel;
@@ -168,7 +169,7 @@ p{
     font-size: 1.2rem;
   }
   #cordially{
-    font-size: 1rem;
+    font-size: 13px;
   }
   .low, .high{
     font-size: 80%;
