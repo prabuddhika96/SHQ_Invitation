@@ -150,6 +150,11 @@ p{
   .container{
     width: fit-content;
     margin: 0 auto;
+    padding: 0px;
+  }
+  .invitation{
+    width: 90%;
+    margin: 0 auto;
   }
   .main{
     margin: 2em auto;
@@ -157,9 +162,10 @@ p{
   .main h1{
     letter-spacing: 5px;
     margin-top: 0em;
+    font-size: 1.2rem;
   }
   #name{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   #cordially{
     font-size: 1rem;
