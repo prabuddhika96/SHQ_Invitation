@@ -157,6 +157,9 @@ else if(encryptedname=='F7ddj/bu9Oz+oZu'){
 else if(encryptedname=='FIqk9kEZv8yzONN'){
     name='Mrs. Subrina Muthusara';
 }
+else if(encryptedname=='Bpm6c8IvnV2oxnjlG'){
+    name='non academic staff';
+}
 else{
     name='you';
 }
