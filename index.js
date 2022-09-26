@@ -7,6 +7,19 @@ console.log(encryptedname);
 
 let name='';
 
+
+
+5 of 3,073
+New SHQ list
+Inbox
+
+Manula Gunawardhana
+Attachments
+Sun, Sep 25, 10:59 PM (12 hours ago)
+to me
+
+
+Attachments area
 if(encryptedname=='N7K4mMufZQOGeAG'){
     name ='Prof. Amalka Pinidiyaarachchi';
 }
@@ -126,6 +139,36 @@ else if(encryptedname=='gy646Lcbs9kcepH+h'){
 }
 else if(encryptedname=='10y9k+DZmICP6i2'){
     name='Prof. Inoka Karunaratne';
+}
+else if(encryptedname=='3GJ0H72iD+Lnty5'){
+    name='Mr. Rochana Obadage';
+}
+else if(encryptedname=='CvNlwHRQGnp3giro'){
+    name='Mrs. Nethmee Gunasekara';
+}
+else if(encryptedname=='UmGU77mpkjdmNCwm8'){
+    name='Mrs. Dilusha Senarathne';
+}
+else if(encryptedname=='K7gKipa4yC2ARw2'){
+    name='Mrs. Indeewari Baalasooriya';
+}
+else if(encryptedname=='p3Qmjmib++42fs8T'){
+    name='Mrs. Hasini Herath';
+}
+else if(encryptedname=='bLrBEb/1IJGobPwT'){
+    name='Mrs. Buddhini Samarasinghe';
+}
+else if(encryptedname=='0tYf4i/tnZzx2Hve'){
+    name='Mr. Rajitha Edirisinghe';
+}
+else if(encryptedname=='qsMxepHQLhLSJRY0'){
+    name='Mr. Samitha Herath';
+}
+else if(encryptedname=='F7ddj/bu9Oz+oZu'){
+    name='Mrs. Vindya Prabhawi';
+}
+else if(encryptedname=='FIqk9kEZv8yzONN'){
+    name='Mrs. Subirna Muthusara';
 }
 else{
     name='you';
