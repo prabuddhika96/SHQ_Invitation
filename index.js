@@ -128,7 +128,7 @@ else if(encryptedname=='10y9k+DZmICP6i2'){
     name='Prof. Inoka Karunaratne';
 }
 else{
-    name='Other';
+    name='you';
 }
 
 console.log(name);

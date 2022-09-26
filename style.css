@@ -156,6 +156,7 @@ p{
     height: fit-content;
     margin: auto;
     padding: 0px;
+    /* vertical-align: auto; */
   }
   .invitation{
     width: 90%;
