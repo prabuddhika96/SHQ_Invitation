@@ -7,19 +7,6 @@ console.log(encryptedname);
 
 let name='';
 
-
-
-5 of 3,073
-New SHQ list
-Inbox
-
-Manula Gunawardhana
-Attachments
-Sun, Sep 25, 10:59 PM (12 hours ago)
-to me
-
-
-Attachments area
 if(encryptedname=='N7K4mMufZQOGeAG'){
     name ='Prof. Amalka Pinidiyaarachchi';
 }
