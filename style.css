@@ -53,15 +53,15 @@ p {
 }
 
 .content{
-  /* border: 1px solid var(--yellow); */
-  border-width: 3px;
+  border: 1px solid var(--yellow);
+  /* border-width: 3px;
   border-style: solid;
   border-image: 
     linear-gradient(
       to top, 
       var(--yellow), 
       rgba(0, 0, 0, 0)
-    ) 1 100%;
+    ) 1 100%; */
     /* border-left: none; */
   border-radius: 10px;
   height: 100%;
