@@ -32,13 +32,11 @@ p {
 }
 
 .container {
-
-
-
   width: 700px;
   /* height: 1000px; */
   margin: 0em auto;
   padding: 10px;
+
 }
 
 .invitation {
@@ -50,6 +48,7 @@ p {
   box-shadow: 0 0 10px 1px var(--yellow);
   padding: 1em;
   border-radius: 10px;
+
 }
 
 .content {
@@ -163,11 +162,10 @@ p {
   }
 
   .container {
-    width: fit-content;
-    height: fit-content;
+    width: 80%;
+    height: 80%;
     margin: auto;
     padding: 0px;
-
     /* vertical-align: auto; */
   }
 

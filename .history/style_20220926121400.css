@@ -33,7 +33,9 @@ p {
 
 .container {
 
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   width: 700px;
   /* height: 1000px; */
@@ -167,7 +169,6 @@ p {
     height: fit-content;
     margin: auto;
     padding: 0px;
-
     /* vertical-align: auto; */
   }
 

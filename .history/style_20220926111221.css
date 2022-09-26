@@ -32,13 +32,11 @@ p {
 }
 
 .container {
-
-
-
   width: 700px;
   /* height: 1000px; */
   margin: 0em auto;
   padding: 10px;
+  overflow: hidden;
 }
 
 .invitation {
@@ -167,7 +165,6 @@ p {
     height: fit-content;
     margin: auto;
     padding: 0px;
-
     /* vertical-align: auto; */
   }
 
