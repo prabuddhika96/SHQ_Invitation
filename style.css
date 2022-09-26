@@ -44,7 +44,7 @@ p {
 .invitation {
   background-image: url('Img/backgrond.jpg');
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
   background-size: cover;
   /* box-shadow:5px 5px 10px rgb(64, 64, 64); */
   box-shadow: 0 0 10px 1px var(--yellow);
@@ -52,7 +52,7 @@ p {
   border-radius: 10px;
 }
 
-.content{
+.content {
   border: 1px solid var(--yellow);
   /* border-width: 3px;
   border-style: solid;
@@ -62,7 +62,7 @@ p {
       var(--yellow), 
       rgba(0, 0, 0, 0)
     ) 1 100%; */
-    /* border-left: none; */
+  /* border-left: none; */
   border-radius: 10px;
   height: 100%;
   text-transform: uppercase;
@@ -170,7 +170,8 @@ p {
     font-size: 60%;
     padding: 0;
   }
-  .container{
+
+  .container {
     width: 90%;
     /* height: fit-content; */
     margin: auto;
@@ -178,7 +179,8 @@ p {
 
     /* vertical-align: auto; */
   }
-  .invitation{
+
+  .invitation {
     /* width: 99%; */
     margin: 0 auto;
   }
