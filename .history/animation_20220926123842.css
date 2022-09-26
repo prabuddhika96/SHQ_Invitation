@@ -76,7 +76,7 @@ body {
 
 
 
-  animation: loader 2s 4 forwards ease;
+  animation: loader 2s 2 forwards ease;
   animation: mymove 2s 1 forwards;
   animation-delay: 2s;
 }
@@ -118,12 +118,11 @@ body {
   from {
     width: 50px;
     height: 50px;
-
-    /* -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
     opacity: 1;
   }
 
@@ -142,24 +141,22 @@ body {
     from {
       width: 50px;
       height: 50px;
-
-      /* -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
       -webkit-transform: translate(-50%, -50%);
       -moz-transform: translate(-50%, -50%);
       -o-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%); */
       opacity: 1;
     }
 
     to {
       width: 90%;
       height: 90%;
-
-      /* -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
       -webkit-transform: translate(-50%, -50%);
       -moz-transform: translate(-50%, -50%);
       -o-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%); */
       opacity: 0;
 
     }
