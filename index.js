@@ -155,7 +155,7 @@ else if(encryptedname=='F7ddj/bu9Oz+oZu'){
     name='Mrs. Vindya Prabhawi';
 }
 else if(encryptedname=='FIqk9kEZv8yzONN'){
-    name='Mrs. Subirna Muthusara';
+    name='Mrs. Subrina Muthusara';
 }
 else{
     name='you';
