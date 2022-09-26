@@ -101,7 +101,7 @@ else if(encryptedname=='yZKPqBhuBUOYEbaIj'){
     name='Mr. Chamara M. K. Herath';
 }
 else if(encryptedname=='NuGfEILEPrhTyF'){
-    name='Mr. P. D. Amila K. Subasinghe';
+    name='Ms. Himansi Kumari';
 }
 else if(encryptedname=='ZmcGeh03B2g5cSS'){
     name='Prof. Pushpakanthie Wijekoon';
