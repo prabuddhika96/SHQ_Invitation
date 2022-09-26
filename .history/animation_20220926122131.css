@@ -42,6 +42,10 @@ body {
 
 @media screen and (max-width: 500px) {
 
+  body {
+    height: 100vh;
+  }
+
   .bg, .bg2, .bg3 {
     /* display: none; */
     height: 100%;

@@ -32,13 +32,11 @@ p {
 }
 
 .container {
-
-
-
   width: 700px;
   /* height: 1000px; */
   margin: 0em auto;
   padding: 10px;
+
 }
 
 .invitation {
@@ -50,19 +48,11 @@ p {
   box-shadow: 0 0 10px 1px var(--yellow);
   padding: 1em;
   border-radius: 10px;
+
 }
 
-.content{
-  /* border: 1px solid var(--yellow); */
-  border-width: 3px;
-  border-style: solid;
-  border-image: 
-    linear-gradient(
-      to top, 
-      var(--yellow), 
-      rgba(0, 0, 0, 0)
-    ) 1 100%;
-    /* border-left: none; */
+.content {
+  border: 1px solid var(--yellow);
   border-radius: 10px;
   height: 100%;
   text-transform: uppercase;
@@ -170,16 +160,17 @@ p {
     font-size: 60%;
     padding: 0;
   }
-  .container{
-    width: 90%;
-    /* height: fit-content; */
+
+  .container {
+    width: fit-content;
+    height: fit-content;
     margin: auto;
     padding: 0px;
-
     /* vertical-align: auto; */
   }
-  .invitation{
-    /* width: 99%; */
+
+  .invitation {
+    width: 90%;
     margin: 0 auto;
   }
 

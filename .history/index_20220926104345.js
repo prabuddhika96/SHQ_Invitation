@@ -95,7 +95,7 @@ else if(encryptedname=='7KmVrAhAZzdR6s1'){
     name='Mr. W. M. Ananda Bandara';
 }
 else if(encryptedname=='WmgmudUSWE3hEn7'){
-    name='Mr. Lasantha Senanayake';
+    name='Mr. H. M. A. Herath Bandara';
 }
 else if(encryptedname=='yZKPqBhuBUOYEbaIj'){
     name='Mr. Chamara M. K. Herath';
@@ -126,39 +126,6 @@ else if(encryptedname=='gy646Lcbs9kcepH+h'){
 }
 else if(encryptedname=='10y9k+DZmICP6i2'){
     name='Prof. Inoka Karunaratne';
-}
-else if(encryptedname=='3GJ0H72iD+Lnty5'){
-    name='Mr. Rochana Obadage';
-}
-else if(encryptedname=='CvNlwHRQGnp3giro'){
-    name='Mrs. Nethmee Gunasekara';
-}
-else if(encryptedname=='UmGU77mpkjdmNCwm8'){
-    name='Mrs. Dilusha Senarathne';
-}
-else if(encryptedname=='K7gKipa4yC2ARw2'){
-    name='Mrs. Indeewari Baalasooriya';
-}
-else if(encryptedname=='p3Qmjmib++42fs8T'){
-    name='Mrs. Hasini Herath';
-}
-else if(encryptedname=='bLrBEb/1IJGobPwT'){
-    name='Mrs. Buddhini Samarasinghe';
-}
-else if(encryptedname=='0tYf4i/tnZzx2Hve'){
-    name='Mr. Rajitha Edirisinghe';
-}
-else if(encryptedname=='qsMxepHQLhLSJRY0'){
-    name='Mr. Samitha Herath';
-}
-else if(encryptedname=='F7ddj/bu9Oz+oZu'){
-    name='Mrs. Vindya Prabhawi';
-}
-else if(encryptedname=='FIqk9kEZv8yzONN'){
-    name='Mrs. Subrina Muthusara';
-}
-else if(encryptedname=='Bpm6c8IvnV2oxnjlG'){
-    name='non academic staff';
 }
 else{
     name='you';

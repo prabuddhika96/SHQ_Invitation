@@ -15,33 +15,29 @@
 }
 
 
-:root {
-  --yellow: #CE9707;
+:root{
+  --yellow : #CE9707;
   --cordially: #7a7a7a;
   --department: #8a8a8a;
 }
 
-body {
+body{
   background-color: #0B1628;
   /* padding: 1em; */
   /* height: 80%; */
 }
 
-p {
+p{
   font-size: 1.1em;
 }
-
-.container {
-
-
-
+.container{
   width: 700px;
   /* height: 1000px; */
   margin: 0em auto;
   padding: 10px;
 }
 
-.invitation {
+.invitation{
   background-image: url('Img/backgrond.jpg');
   height: 100%;
   width: 100%;
@@ -53,58 +49,46 @@ p {
 }
 
 .content{
-  /* border: 1px solid var(--yellow); */
-  border-width: 3px;
-  border-style: solid;
-  border-image: 
-    linear-gradient(
-      to top, 
-      var(--yellow), 
-      rgba(0, 0, 0, 0)
-    ) 1 100%;
-    /* border-left: none; */
+  border: 1px solid var(--yellow);
   border-radius: 10px;
   height: 100%;
   text-transform: uppercase;
   text-align: center;
   font-family: lemonMilk;
 }
-
-.main {
+.main{
   margin: 4em auto;
 }
-
-.main h1 {
+.main h1{
   font-family: cinzel;
   color: var(--yellow);
   letter-spacing: 10px;
   margin-top: 1em;
 }
 
-#cordially {
+#cordially{
   color: var(--cordially);
   font-weight: 400;
   font-size: 25px;
   font-family: lemonMilk;
 }
 
-#name {
+#name{
   color: var(--yellow);
   margin: 2em auto;
   font-size: 2.5rem;
 }
 
-#department {
+#department{
   color: var(--department);
 }
 
-#shq {
+#shq{
   font-family: umbro;
   font-size: 5em;
   color: var(--yellow);
 }
-
-#month {
+#month{
   color: rgb(170, 170, 170);
 }
 
@@ -115,7 +99,7 @@ p {
 }
 
 
-.date {
+.date{
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 5px;
@@ -125,83 +109,74 @@ p {
 
   font-family: cinzel;
 }
-
-.date h2 {
+.date h2{
   vertical-align: middle;
   color: var(--yellow);
 }
-
-#middle {
+#middle{
   /* border: 1px solid var(--yellow);
   border-top: none;
   border-bottom: none; */
   border-width: 3px;
   border-style: solid;
-  border-image:
-    linear-gradient(to top,
-      var(--yellow),
-      rgba(0, 0, 0, 0)) 1 100%;
+  border-image: 
+    linear-gradient(
+      to top, 
+      var(--yellow), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
 }
-
-#venue {
+#venue{
   color: var(--yellow);
 }
 
-.organized {
+.organized{
   color: #fff;
   font-family: cinzel;
   margin-top: 2em;
   line-height: 80%;
 }
-
-.low {
+.low{
   font-size: small;
 }
-
-.high {
+.high{
   line-height: normal;
 }
 
 
 @media screen and (max-width: 500px) {
-  body {
+  body{
     /* width: 100%; */
     /* height: 100%; */
     font-size: 60%;
     padding: 0;
   }
   .container{
-    width: 90%;
-    /* height: fit-content; */
+    width: fit-content;
+    height: fit-content;
     margin: auto;
     padding: 0px;
-
     /* vertical-align: auto; */
   }
   .invitation{
-    /* width: 99%; */
+    width: 90%;
     margin: 0 auto;
   }
-
-  .main {
+  .main{
     margin: 2em auto;
   }
-
-  .main h1 {
+  .main h1{
     letter-spacing: 5px;
     margin-top: 0em;
     font-size: 1.2rem;
   }
-
-  #name {
+  #name{
     font-size: 1.2rem;
   }
-
-  #cordially {
+  #cordially{
     font-size: 13px;
   }
-
-  .low, .high {
+  .low, .high{
     font-size: 80%;
   }
 }
