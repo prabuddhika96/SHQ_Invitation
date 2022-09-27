@@ -110,7 +110,9 @@ if (encryptedname == 'N7K4mMufZQOGeAG') {
 } else if (encryptedname == 'FIqk9kEZv8yzONN') {
 	name = 'Ms. Subrina Muthusara';
 } else if (encryptedname == 'Bpm6c8IvnV2oxnjlG') {
-	name = 'non academic staff';
+	name = 'You All';
+} else if (encryptedname == 'gLKAqaOI30n8uV') {
+	name = "16' Batch";
 } else {
 	name = 'you';
 }
