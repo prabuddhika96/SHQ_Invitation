@@ -160,6 +160,9 @@ else if(encryptedname=='FIqk9kEZv8yzONN'){
 else if(encryptedname=='Bpm6c8IvnV2oxnjlG'){
     name='non academic staff';
 }
+else if(encryptedname=='oHH6HcJbJKBgGgnjlG'){
+    name='16\'th Batch';
+}
 else{
     name='you';
 }
