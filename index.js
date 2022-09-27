@@ -90,25 +90,25 @@ if (encryptedname == 'N7K4mMufZQOGeAG') {
 } else if (encryptedname == '3GJ0H72iD+Lnty5') {
 	name = 'Mr. Rochana Obadage';
 } else if (encryptedname == 'CvNlwHRQGnp3giro') {
-	name = 'Mrs. Nethmee Gunasekara';
+	name = 'Ms. Nethmee Gunasekara';
 } else if (encryptedname == 'VbhdoTr29FAJFkc') {
 	name = 'Mr. Lasantha Senanayake';
 } else if (encryptedname == 'UmGU77mpkjdmNCwm8') {
-	name = 'Mrs. Dilusha Senarathne';
+	name = 'Ms. Dilusha Senarathne';
 } else if (encryptedname == 'K7gKipa4yC2ARw2') {
-	name = 'Mrs. Indeewari Baalasooriya';
+	name = 'Ms. Indeewari Baalasooriya';
 } else if (encryptedname == 'p3Qmjmib++42fs8T') {
-	name = 'Mrs. Hasini Herath';
+	name = 'Ms. Hasini Herath';
 } else if (encryptedname == 'bLrBEb/1IJGobPwT') {
-	name = 'Mrs. Buddhini Samarasinghe';
+	name = 'Ms. Buddhini Samarasinghe';
 } else if (encryptedname == '0tYf4i/tnZzx2Hve') {
 	name = 'Mr. Rajitha Edirisinghe';
 } else if (encryptedname == 'qsMxepHQLhLSJRY0') {
 	name = 'Mr. Samitha Herath';
 } else if (encryptedname == 'F7ddj/bu9Oz+oZu') {
-	name = 'Mrs. Vindya Prabhawi';
+	name = 'Ms. Vindya Prabhawi';
 } else if (encryptedname == 'FIqk9kEZv8yzONN') {
-	name = 'Mrs. Subrina Muthusara';
+	name = 'Ms. Subrina Muthusara';
 } else if (encryptedname == 'Bpm6c8IvnV2oxnjlG') {
 	name = 'non academic staff';
 } else {
